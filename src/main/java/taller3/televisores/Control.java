@@ -37,4 +37,13 @@ public class Control {
     public void setCanal(int canal1){
         tv.setCanal(canal1);
     }
+
+    public void turnOn() {
+        tv.turnOn();
+    }
+    
+    public void turnOff() {
+        tv.turnOff();
+    }
 }
+
