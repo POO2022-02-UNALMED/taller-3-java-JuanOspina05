@@ -2,8 +2,8 @@ package taller3.televisores;
 
 
 public class Control {
-    TV tv;
-    int canal1;
+    private TV tv;
+    public int canal1;
 
     public TV getTv() {
         return tv;
@@ -46,4 +46,3 @@ public class Control {
         tv.turnOff();
     }
 }
-
